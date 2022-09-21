@@ -1,0 +1,13 @@
+HTTP1 & HTTP2: 
+**********************************************************
+HTTP1.1 supports connection reuse i.e every TCP connection can have multiple request & response
+HTTP2 support mutliplexing where over a single TCP connection resources to be delivered are interleaved and arrive at the client almost at the same time. It is done using streams which can be prioritized, can have dependencies and individual flow control.
+HTTP2 is much faster and more reliable.
+HTTP1.1 is more secure as HTTP2 
+
+objects and its internal representation in Javascript:
+***********************************************************
+Objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types
+The object properties can be different primitive values, other objects and functions.
+Properties can usually be changed, added, and deleted, but some are read only.
+An object method is an object property containing a function definition.
